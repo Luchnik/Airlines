@@ -10,17 +10,15 @@ interface Nav {
   selector: 'app-root',
   styleUrls: ['./app.component.scss'],
   template: `
-    <div>
+    <nav>
       <a
         *ngFor="let item of nav"
         [routerLink]="item.link"
         routerLinkActive="active"
         [routerLinkActiveOptions]="{ exact: item.exact }">
         {{ item.name }}</a>
-    </div>
-    <div>
-      <router-outlet></router-outlet>
-    </div>
+    </nav>
+    <router-outlet></router-outlet>
   `
 })
 export class AppComponent {
