@@ -1,0 +1,15 @@
+.name {
+  margin-top: 20px;
+}
+
+.status {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: #c0392b;
+  &.checked-in {
+    background: #2ecc71;
+  }
+}
