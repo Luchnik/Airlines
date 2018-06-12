@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
-import { RouterModule, Routes } from '@angular/router';
 
 import { passengerDashboardRouter } from './passenger-dashboard.router';
 
